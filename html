@@ -1,0 +1,24 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi página web</title>
+    <style>
+      #canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Karen</h1>
+    <div id="container">
+      {{ result }}
+    </div>
+    <script>
+      // Agregar código JavaScript para dibujar en el canvas
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+      // ...
+    </script>
+  </body>
+</html>
